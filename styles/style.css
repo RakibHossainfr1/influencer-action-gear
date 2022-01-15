@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    color: #3a3a3a;
+}
+/* header section  */
+.container {
+    margin: 85px 120px 0px;
+}
+.header-seciton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a3a3a;
+    line-height: 24px;
+}
+.header-right {
+    display: flex;
+}
+.header-pages a {
+    margin-right: 34px;
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.header-icon i {
+    color: #3a3a3a;
+    line-height: 24px;
+    font-size: 20px;
+    margin-right: 34px;
+}
+.header-icon .fas.shoppgin-icon {
+    font-size: 30px;
+}
+
+/* strat your journey section  
+*/
+.start-journey-section {
+    display: flex;
+    justify-content: space-around;
+    line-height: 24px;
+}
+.start-left {
+    Width:  582px;
+}
+.start-left .start-title {
+    font-size: 32px;
+    color: #3a3a3a;
+    line-height: 70px;
+}
+.start-description button {
+    background-color: #E02C6D;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.start-description button span {
+    margin-right: 5px;
+}
