@@ -152,15 +152,31 @@ body {
 }
 .best-sell-products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-bottom: 85px;
 }
+#best-product {
+    width: 200px;
+}
+#best-product img {
+    width: 200px;
+    height: 220px;
+}
+#best-product-details h3 {
+    font-size: 24px;
+}
+
 .cut-product-money {
     text-decoration: line-through;
     color: rgb(219, 59, 59);
 }
 .best-product-money {
     font-size: 20px;
+}
+#big-sell-see-more {
+    margin-right: 45px;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 /* footer section  */
 footer {
