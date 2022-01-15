@@ -154,16 +154,17 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 85px;
+    grid-column-gap: 20px;
 }
 #best-product {
-    width: 200px;
+    width: 225px;
 }
 #best-product img {
     width: 200px;
     height: 220px;
 }
 #best-product-details h3 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .cut-product-money {
