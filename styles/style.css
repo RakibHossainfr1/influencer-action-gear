@@ -145,6 +145,23 @@ body {
     font-weight: bold;
     text-align: right;
 }
+/* best-selling  */
+.best-sell-title h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.best-sell-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 85px;
+}
+.cut-product-money {
+    text-decoration: line-through;
+    color: rgb(219, 59, 59);
+}
+.best-product-money {
+    font-size: 20px;
+}
 /* footer section  */
 footer {
     padding: 50px 500px;
